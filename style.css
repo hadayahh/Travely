@@ -233,3 +233,49 @@ section.hero{
 }
 
 /*END BENEFITS SECTION */
+
+/*START CONTACT SECTION*/
+#contact{
+    min-height:50vh;
+    background: url(/img/contact-mountain.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.form-wrapper{
+    background: rgba(19,28, 39, 0.8);
+    color: white;
+    border-radius: 25px;
+    padding: 2rem;
+    width: 50rem;
+    position: absolute;
+    top: 10rem;
+}
+
+.form-head{
+    text-align: center;
+}
+
+.name-form,.email-form{
+    padding: 1rem;
+    text-align: center;
+}
+
+.form-wrapper label{
+    padding: 0rem 3rem;
+}
+
+.form-wrapper button{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+}
+
+
+
+/*END CONTACT SECTION*/
+
