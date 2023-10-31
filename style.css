@@ -76,6 +76,15 @@ button:hover{
     .moving-cloud-2{
         z-index: -2;
     }
+    footer{
+        text-align: center;
+    }
+    .form-wrapper{
+        width: 100%;
+    }
+    footer h5{
+        padding-bottom: 3rem;
+    }
 }
 
 
@@ -279,3 +288,30 @@ section.hero{
 
 /*END CONTACT SECTION*/
 
+/*START FOOTER SECTION*/
+footer{
+    color: white;
+    background: #27394e;
+}
+
+.footer-wrapper{
+    display: flex;
+    padding: 2rem;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    min-height: 10vh;
+    flex-wrap: wrap;
+}
+footer h5{
+    flex: 1 1 40rem;
+}
+footer ul{
+    list-style: none;
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*END FOOTER SECTION*/
