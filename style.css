@@ -260,8 +260,12 @@ section.hero{
     border-radius: 25px;
     padding: 2rem;
     width: 50rem;
-    position: absolute;
-    top: 10rem;
+    /* position: absolute; */
+    /* top: -5rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .form-head{
